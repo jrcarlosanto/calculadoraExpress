@@ -23,4 +23,14 @@ calcularRoute.get('', (req, res) => {
     res.send(`Consulta inválida. Essa é um exemplo de consulta válida http://localhost:3000/soma?a=1&b=1`);
 });
 
+calcularRoute.post('/calculadora', (req, res) => {
+    const objeto = req.body;
+    if(objeto.numero1===undefined || objeto.numero2===undefined || objeto.operador===undefined ){
+        res.send("Requisição errada. Veja o exemplo de Requisição: { numero1: 12, numero2: 12, operador: '+' }")
+    } else{
+        const resultado = Calculadora.calcular(objeto.operador,objeto.numero1, objeto.numero2);
+        res.send(resultado);
+    }
+});
+
 module.exports=calcularRoute;

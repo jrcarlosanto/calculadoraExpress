@@ -12,6 +12,8 @@ Calculadora feita pelo método get através do express.
 
 ## Consultas
 
+### GET
+
 1. http://localhost:3000/soma?a=1&b=1
 2. http://localhost:3000/sub?a=1&b=1
 3. http://localhost:3000/mult?a=1&b=1
@@ -19,12 +21,18 @@ Calculadora feita pelo método get através do express.
 5. http://localhost:3000/resto?a=1&b=1
 6. http://localhost:3000/exp?a=1&b=1
 
+### POST
 
-<<<<<<< HEAD
-## Depedencias
-=======
+1. http://localhost:3000/calculadora
+2. Json do POST: 
+{
+   "numero1": 12,
+   "numero2": 12,
+   "operador": "+"
+}
+
+
 ## Depedências
->>>>>>> 6585b9b9ec350bc32489aa977e8fca23afb07a59
 
 1. express para criar o server.
-2. nodemon para atualizar o server sem precisa ficar deruubando o server.
+2. nodemon para atualizar o server sem precisa ficar derrubando o server.

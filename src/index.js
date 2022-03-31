@@ -4,6 +4,10 @@ const calcularRoute = require('./routes/calcular.router')
 const app = express();
 const port = 3000;
 
+// Configurações da aplicação
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+
 // Configurações de Rotas
 app.use(calcularRoute);
 
