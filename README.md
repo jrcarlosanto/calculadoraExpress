@@ -22,5 +22,5 @@ Calculadora feita pelo método get através do express.
 
 ## Depedências
 
-1. express para criar o server
-2. nodemon para atualizar o server sem precisa de ficar derubando o server
+1. express para criar o server.
+2. nodemon para atualizar o server sem precisa ficar deruubando o server.
