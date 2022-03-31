@@ -33,8 +33,4 @@ calcularRoute.post('/calculadora', (req, res) => {
     }
 });
 
-calcularRoute.get('', (req, res) => {
-    res.send(`Consulta inválida. Essa é um exemplo de consulta válida http://localhost:3000/soma?a=1&b=1`);
-});
-
 module.exports=calcularRoute;
