@@ -20,4 +20,8 @@ calcularRoute.get('/:tipo', (req, res) => { // /tipo?a=1&b=2
 
 });
 
+calcularRoute.get('', (req, res) => {
+    res.send(`Consulta inválida. Essa é um exemplo de consulta válida http://localhost:3000/soma?a=1&b=1`);
+});
+
 module.exports=calcularRoute;
