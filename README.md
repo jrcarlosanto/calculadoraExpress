@@ -20,7 +20,11 @@ Calculadora feita pelo método get através do express.
 6. http://localhost:3000/exp?a=1&b=1
 
 
+<<<<<<< HEAD
 ## Depedencias
+=======
+## Depedências
+>>>>>>> 6585b9b9ec350bc32489aa977e8fca23afb07a59
 
-1. express para criar o server
-2. nodemon para atualizar o server sem precisa de ficar derubando o server
+1. express para criar o server.
+2. nodemon para atualizar o server sem precisa ficar deruubando o server.
