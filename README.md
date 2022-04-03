@@ -1,6 +1,6 @@
 # Comados
 
-Calculadora feita pelo método get e post através do express.
+Calculadora feita pelo métodos get e post através do express.
 
 ## Instalar as depedências
 
